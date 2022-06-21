@@ -3,9 +3,9 @@ package models;
 import java.util.Objects;
 
 public class Animal {
-    String name;
-    int age;
-    boolean tail;
+    private String name;
+    private int age;
+    private boolean tail;
 
     public Animal(String name, int age, boolean tail) {
         this.name = name;

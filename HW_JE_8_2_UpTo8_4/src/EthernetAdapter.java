@@ -1,8 +1,8 @@
 import java.util.Objects;
 
 public class EthernetAdapter extends Device{
-    int speed;
-    String mac;
+    private int speed;
+    private String mac;
 
     public EthernetAdapter(String manufacturer, float price, String serialNumber, int speed, String mac) {
         super(manufacturer, price, serialNumber);
